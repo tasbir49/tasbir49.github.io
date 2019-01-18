@@ -7,14 +7,9 @@ ul {
     padding: 0;
 }
 .fab {
-    border-radius: 100%;
-    border: 2px solid white;
-    color: white;
     margin: 8px;
-    display: inline-block;
-    list-style: none;
-    width: 65px;
-    height: 65px;
+    display: inline;
+    font-size: 3em;
 }
 .fab:hover {
     color: white;
