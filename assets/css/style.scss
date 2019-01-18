@@ -3,6 +3,7 @@
 
 @import "{{ site.theme }}";
 #links ul {
+    margin: 1rem;
     list-style: none;
     padding: 0;
     text-align: center;
@@ -16,6 +17,7 @@
 .description {
     display: none;
     position: absolute;
+    font-weight: normal;
     font-size: 2rem;
     color: white;
     background-color: black;
