@@ -10,20 +10,20 @@
 .iconic {
     margin: 8px;
     display: inline;
-    font-size: 3em;
+    font-size: 3rem;
 }
 
 .description {
     display: none;
     position: absolute;
-    font-size: 0.5em;
+    font-size: 0.5rem;
     color: white;
     background-color: black;
 }
 
 #links ul li {
     display: inline-block;
-    margin: 0.25em;
+    margin: 0.25rem;
 }
 
 #links ul li:hover .description {
