@@ -36,7 +36,6 @@
         <div id="title">
           <h1>{{ site.title | default: site.github.repository_name }}</h1>
           <p>{{ site.description | default: site.github.project_tagline }}</p>
-          <hr>
         </div>
 
         {{ content }}
@@ -55,6 +54,11 @@
         ga('send', 'pageview');
       </script>
     {% endif %}
+    <div id="Links">
+      <ul>
+        <li><a class="fa fa-2x fa-github" href="https://github.com/tasbir49"><span class="description">GitHub</span></a></li>
+      </ul>
+    </div>
   </body>
   
 </html>
