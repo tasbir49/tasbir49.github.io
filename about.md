@@ -1,4 +1,4 @@
-##About
+## About
 
 I’m an undergrad computer science student at the University of Toronto. I am currently in my third year and hope to secure a PEY job after I complete my third year.
 
