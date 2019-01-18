@@ -6,7 +6,7 @@ ul {
     list-style: none;
     padding: 0;
 }
-li a .fab {
+.fab {
     border-radius: 100%;
     border: 2px solid white;
     color: white;
@@ -16,7 +16,7 @@ li a .fab {
     width: 65px;
     height: 65px;
 }
-li:hover {
+.fab:hover {
     color: white;
     text-decoration: none;
     -webkit-transition: 500ms;
