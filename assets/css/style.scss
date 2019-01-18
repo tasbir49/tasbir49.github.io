@@ -11,21 +11,13 @@
     display: inline;
     font-size: 3em;
 }
-.fab:hover {
-    color: white;
-    text-decoration: none;
-    -webkit-transition: 500ms;
-    -moz-transition: 500ms;
-    transition: 500ms;
-    text-decoration: none;
-    background-color: rgba(0, 0, 0, 0.5);
-}
 
 .description {
     display: none;
     position: absolute;
-    font-size: 0.25em;
+    font-size: 0.5em;
     color: white;
+    background-color: black;
 }
 
 #links ul li {
