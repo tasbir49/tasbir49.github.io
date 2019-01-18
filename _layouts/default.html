@@ -6,6 +6,7 @@
 
 {% seo %}
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
     <script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
     <!--[if lt IE 9]>
@@ -32,9 +33,6 @@
     <div class="wrapper">
 
       <section>
-        <div id="profilePic">
-          <img src="https://avatars3.githubusercontent.com/u/23640859?s=460&v=4">
-        </div>
         <div id="title">
           <h1>{{ site.title | default: site.github.repository_name }}</h1>
           <p>{{ site.description | default: site.github.project_tagline }}</p>
@@ -58,4 +56,5 @@
       </script>
     {% endif %}
   </body>
+  
 </html>
