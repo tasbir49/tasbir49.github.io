@@ -16,14 +16,14 @@
 .description {
     display: none;
     position: absolute;
-    font-size: 0.5em;
+    font-size: 2rem;
     color: white;
     background-color: black;
 }
 
 #links ul li {
     display: inline-block;
-    margin: 0.25rem;
+    margin: 0.25em;
 }
 
 #links ul li:hover .description {
