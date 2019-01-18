@@ -27,5 +27,9 @@
 
 #links ul li {
     display: inline-block;
-    margin: 0.5em;
+    margin: 0.25em;
+}
+
+#links ul li:hover .description {
+    display: inline;
 }
